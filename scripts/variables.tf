@@ -1,7 +1,7 @@
 # Sets global variables for this Terraform project.
 
 variable app_name {
-    default = "flixtube"
+    default = "skvd6Flixtube"
 }
 variable location {
   default = "West US"
