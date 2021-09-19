@@ -1,10 +1,10 @@
-# Example-2
+# Example-3
 
-This example uses Terraform to create a Kubernetes cluster and deploys a database and **RabbitMQ** to it.
+This example uses Terraform to create a Kubernetes cluster and deploys a database, RabbitMQ and the **Video streaming microservice** to it.
 
 Run this example using:
 
 ```bash
-cd example-2/scripts
+cd example-3/scripts
 terraform apply
 ```
