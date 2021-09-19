@@ -45,11 +45,11 @@ output "cluster_cluster_username" {
 
 output "cluster_cluster_password" {
   value = azurerm_kubernetes_cluster.cluster.kube_config[0].password
-  sensitive = true
 }
 
 output "cluster_kube_config" {
   value = azurerm_kubernetes_cluster.cluster.kube_config_raw
+  sensitive = true
 }
 
 output "cluster_host" {
