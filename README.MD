@@ -1,3 +1,22 @@
-# Example-4
+# Example-1
 
-This is the same as example-3 but it adds configuration and a deployment script so that you can import this to a repo in Bitbucket Bucket and implement continuous delivery with Bitbucket Pipelines.
+This example demonstrates basic automated testing with Jest.
+
+Setup:
+
+```bash
+cd example-1
+npm install
+```
+
+Run this example using:
+
+```bash
+npm test
+```
+
+Or:
+
+```bash
+npm run test:watch
+```
